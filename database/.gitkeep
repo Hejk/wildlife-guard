@@ -1,0 +1,1 @@
+# 保持 database/ 目录存在于版本控制中；运行时此目录下生成 wildlife.db

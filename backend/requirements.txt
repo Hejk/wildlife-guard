@@ -1,0 +1,21 @@
+# ===== Web / API =====
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# ===== Data validation =====
+pydantic==2.5.2
+pydantic-settings==2.1.0
+
+# ===== ORM / DB =====
+sqlalchemy==2.0.23
+aiosqlite==0.19.0
+alembic==1.13.0
+
+# ===== Serial communication (ESP32 USB) =====
+pyserial==3.5
+# 说明：PyPI 上的异步串口包实为 pyserial-asyncio；V1 采用 pyserial + 线程池执行，
+# 稳定性更好，无需 aioserial。如后续坚持 aioserial 可在此追加。
+
+# ===== Utils =====
+python-dateutil==2.8.2

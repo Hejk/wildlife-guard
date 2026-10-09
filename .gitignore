@@ -1,0 +1,25 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+backend/.env
+
+# ===== Database / storage =====
+database/*.db
+database/*.db-journal
+storage/audio/*
+!storage/audio/.gitkeep
+
+# ===== Node / frontend =====
+node_modules/
+frontend/dist/
+frontend/.vite/
+*.local
+
+# ===== IDE / OS =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
